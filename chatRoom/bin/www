@@ -28,7 +28,6 @@ var server = app.listen(app.get('port'), function() {
 /**
  * Listen on provided port, on all network interfaces.
  */
-
 require('../serverchat').listen(server);
 // server.listen(port);
 server.on('error', onError);
